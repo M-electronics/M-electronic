@@ -343,8 +343,11 @@ header{
        header{
               padding: 0 10px;
        }
+       header .logo h1 a{
+                         font-size:15px;
+       }
        header .menu li a{
-                       font-size: 5px;
+                         font-size: 5px;
        }
        #home{
              padding: 0 10px;
