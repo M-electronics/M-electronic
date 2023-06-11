@@ -33,10 +33,6 @@ header{
        height: 50px;
        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
-header .logo h1 a{
-                  font-size: 25px;
-       
-}
 .bg-e{
        color:rgba(83, 185, 126, 0.993);
        font-family: elephant;
