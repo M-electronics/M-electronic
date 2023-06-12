@@ -361,11 +361,11 @@ header{
                         width: 73%;
        }
        .images span.Model{
-                          font-size: 6px;
+                          font-size: 8px;
                           font-weight: 400;
        }
        .images span.prix{
-                         font-size: 10px;
+                         font-size: 12px;
        }
       
        #services{
