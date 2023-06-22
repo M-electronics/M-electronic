@@ -1,0 +1,784 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.nav-buttons{
+             margin-left: 25%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+     font-family: 'poppins',sans-serif ;
+}
+/*Début de l'en-tête de la page*/
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 8%;
+  height: 50px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bg-e{
+  color:rgba(83, 185, 126, 0.993);
+  font-family: elephant;
+  font-weight: bold;
+}
+.bg-e:hover{
+       color:rgba(83, 185, 126, 0.993);
+}
+#M-el{
+ color:orangered ;
+ font-family: elephant;
+ font-weight: 300;
+ text-decoration: none;
+ 
+}
+#b-s{
+color: rgb(230, 222, 217);
+text-decoration: none;
+}
+.menu{
+ display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.menu li a{
+      font-size: 14px;
+      color: #000;
+      font-weight: 300;
+      transition: 0.2s;
+}
+.menu li a:hover{
+            color: #ea1f33;
+            cursor: pointer;
+            padding: 5px 2px;
+}
+#lg-user{
+    padding: 10px;
+}
+#lg-shop{
+         margin-top: 10px;
+         margin-left: 2rem;
+}
+
+
+/*Fin de l'en-tête de la page*/
+#brand img{
+           height: 30vh;
+}
+#brand:hover{
+             background-color: rgba(172, 255, 47, 0.192);
+             transition: 0.5s ease;
+}
+/*scrollbarre css*/
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+        background-color: rgba(83, 185, 126, 0.993);
+}
+
+#home {
+      background-image: url("../imgs/M-électronic_bg.png");
+      width: 100%;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between ;
+      align-items: last baseline;
+      cursor: pointer;
+}
+#home:hover{
+            background-color: rgba(224, 255, 255, 0.425) ;
+}
+#home .left{
+            width: 50%;
+            margin-top: 9%;
+            margin-right: 9%;
+}
+#home .left .bg-reparer{
+                        background-color: rgba(53, 51, 51, 0.034);
+}
+#home .left h3{
+               font-size: 22px;
+               margin-bottom: 10px;
+               font-weight: 600;
+}
+#home h3 span{
+              color: coral;
+              font-weight: 400;
+}
+#home .left p{
+              margin-bottom: 30px;
+              color: #494848;
+              font-weight: 400;
+}
+.left button{
+              margin-left: 20rem; 
+}
+#services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.list-services{
+         margin: 100px 0;
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+}
+.service{
+   width: 25%;
+   text-align: center;
+   justify-content: space-between;
+   flex-direction: column;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   padding: 20px;
+   margin: 20px;
+}
+.service i{
+     font-size: 25px;
+     height: 50px;
+     width: 50px;
+     display: inline;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(255, 68, 0, 0.644);
+     color: #fff;
+     border-radius: 20%;
+     margin-bottom: 10px;
+
+    
+}
+.service h3{
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-weight: 300;
+      font-family: elephant;
+}
+.service p{
+     font-size: 12px;
+     color: black;
+     font-family: alger;
+}
+.service a{
+     margin-top: 10px;
+     color: #ea1f33;
+     padding: 2.5px 20px;
+     border: 1px solid #ea1f33;
+     font-size: 12px;
+     font-family: alger;
+     
+}
+#Nos-produits{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+ }
+ .section-title{
+        text-transform: uppercase;
+        position: relative;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+.section-title::before{
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+        content: "";
+        background-color: #ea1f33;
+        width: 100%;
+        height: 5px;
+        border-radius: 6px;
+
+}
+.section-title::after{
+        position: absolute;
+        left: -10px;
+        top: 0;
+        bottom: 0;
+        content: "";
+        background-color: #ea1f33;
+        width: 100%;
+        height: 5px;
+        border-radius: 6px;
+
+}
+.images{
+margin :100px auto;
+padding: 0 8%;
+}
+.images ul{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+.images li{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 2.665%;
+transition: 0.5s;
+height: 300px;
+width: 28%;
+}
+.images li div{
+width: 100%;
+height: 100%;
+}
+.images li div img{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.images li:hover{
+        transform: scale(1.1);
+        margin: 1px;
+}
+.images li span{
+       color: #000;
+       font-size: 18px;
+       font-weight: 600;
+}
+#Nos-produits li span.prix{
+         color: #ea1f33;
+         font-weight: bold; 
+         margin-bottom: 10px;
+}
+
+#services{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ flex-direction: column;
+}
+.list-services{
+      margin: 100px 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+}
+.service{
+width: 25%;
+text-align: center;
+justify-content: space-between;
+flex-direction: column;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+padding: 20px;
+margin: 20px;
+}
+.service i{
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 68, 0, 0.644);
+  color: #fff;
+  border-radius: 20%;
+  margin-bottom: 10px;
+
+ 
+}
+.service h3{
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+.service p{
+  font-size: 12px;
+}
+.service a{
+  margin-top: 10px;
+  color: #ea1f33;
+  padding: 2.5px 20px;
+  border: 1px solid #ea1f33;
+  font-size: 12px;
+  
+}
+
+
+
+/* Button de la page */
+button{
+       background-color: orangered;
+       padding: 10px 20px;
+       font-size: 14px;
+       color: #fff;
+       transition: 0.5s;
+}
+button:hover{
+             background-color: rgba(83, 185, 126, 0.993) ;
+}
+
+
+#new .one img{
+              width: 100%;
+              height: 100%;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+}
+#new .one{
+          position: relative;
+}
+#new .one .details{
+                   position: absolute;
+                   top: 0;
+                   left: 0;
+                   color: burlywood;
+                   font-weight: bold;
+                   transition: 0.4s ease;
+                   opacity: 0.8;
+                   background-color: rgb(1, 1,1);
+                   width: 100%;
+                   height: 100%;
+}
+#new .one .details:hover{
+                         background-color: cornsilk;
+}
+#new .one:nth-child(1) .details{
+                                display: flex;
+                                justify-content: center;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                text-align: start;
+}
+#new .one:nth-child(2) .details{
+                                display: flex;
+                                justify-content: center;
+                                flex-direction: column;
+                                align-items: center;
+                                text-align: center;
+}
+#new .one:nth-child(3) .details{
+                                display: flex;
+                                justify-content: center;
+                                flex-direction: column;
+                                align-items: flex-end;
+                                text-align: end;
+}
+
+
+/* Produits */
+
+#banner{
+        background-image: url("../imgs/gif-reparer.gif");
+        width: 100%;
+        height: 60vh;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        cursor: pointer;
+}
+#banner h4{
+           font-family: 'algerian';
+           color: rgb(190, 243, 190) ;
+           font-size: 10;
+}
+#banner h5{
+           color: #fff;
+           font-weight: 800;
+}
+#banner h5 a{
+             text-decoration: none;
+             color: rgb(255, 72, 6);
+             font-family: Algerian;
+             font-size: 25px;
+}
+#contact{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding:0 12% ;
+}
+.losalisation_contact_div{
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  width: 100%;
+                  margin: 100px 0;
+}
+.localisation{
+         width: 49%;
+         padding: 15px;
+         border-radius: 6px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+         
+}
+.localisation iframe{
+                width: 100%;
+                border-radius: 6px;
+                
+}
+.losalisation_contact_div .form-contact{
+                                width: 49%;
+                                height: 100%;
+                                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                                padding: 15px; 
+                                border-radius: 6px;
+                             
+}
+.losalisation_contact_div h3{
+                     margin-bottom: 10px;
+                     font-size: 18px;
+                     font-family: Arial, Helvetica, sans-serif;
+}
+.losalisation_contact_div .form-contact form{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        width: 100%;
+}
+.form-contact form input , textarea{
+                               border: 1px solid #ccc;
+                               width: 100%;
+                               margin-bottom: 15px;
+                               padding: 5px;
+                               outline: 0;
+                               border-radius: 6px;
+                               font-size: 13px;
+                               color: orangered;
+                               resize: none;
+}
+.form-contact input ,::placeholder{
+                                    font-family: Arial, Helvetica, sans-serif;
+}
+.form-contact form input[type="submit"]{
+                                   margin-bottom: 0;
+                                   background-color: orangered;
+                                   color:#fff;
+                                   border: 0;
+}
+.form-contact form input[type="submit"]:hover{
+                                         background-color: rgba(83, 185, 126, 0.993);
+}
+/* Styles de base pour le footer */
+footer {
+        background-color: rgba(90, 143, 10, 0.384);
+        padding: 40px 0;
+      }
+      
+      .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      
+      .footer-section {
+        width: 25%;
+        margin-bottom: 20px;
+      }
+      
+      .footer-section h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .footer-section p {
+        margin: 0;
+        font-weight: 500;
+      }
+      
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-family: algerian;
+      }
+      
+      .footer-section ul li {
+        margin-bottom: 5px;
+      }
+      
+      .footer-section ul li a {
+        text-decoration: none;
+        color: #666;
+      }
+      
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+      }
+      
+      .footer-bottom p {
+        margin: 0;
+        font-size: 14px;
+        color: #666;
+      }
+      
+      .social-media-links li {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      
+      .social-media-links li a {
+        text-decoration: none;
+        color: #666;
+        font-size: 20px;
+      }
+      .secure-payment {
+        display: flex;
+        align-items: center;
+      }
+      
+      .secure-payment h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 20px;
+      }
+      
+      .payment-methods {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+      }
+      
+      .payment-methods li {
+        margin-right: 10px;
+      }
+      
+      .payment-methods li img {
+        width: 30px;
+        height: 20px;
+        margin-top: 22px;
+      }
+      .brand-logos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+      .brand-logos img {
+        width: 100%;
+        max-width: 150px; /* Ajustez la taille maximale des logos selon vos besoins */
+        height: auto;
+      }
+      
+      
+      /* Pseudo-élément :after pour une séparation décorative */
+      .footer-section:after {
+        content: "";
+        display: block;
+        height: 1px;
+        background-color: #ccc;
+        margin-top: 10px;
+      }
+      
+      /* Effet de survol sur les liens */
+      .footer-section ul li a:hover {
+        color: #ff5500;
+      }
+      
+      /* Media queries pour la réactivité */
+      @media screen and (max-width: 768px) {
+        .footer-section {
+          width: 50%;
+        }
+      }
+      
+      @media screen and (max-width: 480px) {
+        .footer-section {
+          width: 100%;
+        }
+      }
+      
+
+@media only screen and (max-width:990px){
+                                         #banner h4{
+                                                    font-size: 20px;
+                                         }
+                                         #new .one:nth-child(1) .details{
+                                                align-items: center;
+                                                                            
+                                         }
+                                         #new .one:nth-child(2) .details{
+        align-items: center;
+                                         }
+                                         #new .one:nth-child(3) .details{
+        align-items: center;
+                                         }
+                                        
+                                         
+                                    }     
+                                    
+@media only screen and (max-width:1065px) {
+                                           .images li:hover{
+                                                transform: scale(1.1);
+                                                margin: 10px;
+                               }
+                               .images li span{
+                                               color: #000;
+                                               font-size: 17px;
+                                               
+                               }
+                               #Nos-produits li span.prix{
+                                                 color: #ea1f33;
+                                                 font-weight: bold; 
+                                                 margin-bottom: 10px;
+                               }
+                               #Nos-produits li a{
+                                         background-color: orangered;
+                                         color: #fff;
+                                         padding: 5px 20px;
+                                         font-size: 15px;
+                                         cursor: pointer;
+                               }
+                               #Nos-produits li a:hover{
+                                               background-color: rgba(83, 185, 126, 0.993);
+                               }
+                               #services{
+                                         display: flex;
+                                         align-items: center;
+                                         justify-content: center;
+                                         width: 100%;
+                                         flex-direction: column;
+                               }
+                               .list-services{
+                                              margin: 100px 0;
+                                              display: flex;
+                                              flex-wrap: wrap;
+                                              align-items: center;
+                                              justify-content: center;
+                                              width: 100%;
+                               }
+                               .service{
+                                        width: 25%;
+                                        text-align: center;
+                                        justify-content: space-between;
+                                        flex-direction: column;
+                                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                                        padding: 20px;
+                                        margin: 20px;
+                               }
+                               .service i{
+                                          font-size: 25px;
+                                          height: 50px;
+                                          width: 50px;
+                                          display: inline;
+                                          align-items: center;
+                                          justify-content: center;
+                                          background-color: rgba(255, 68, 0, 0.644);
+                                          color: #fff;
+                                          border-radius: 20%;
+                                          margin-bottom: 10px;
+                               
+                                         
+                               }
+                               .service h3{
+                                           font-size: 18px;
+                                           margin-bottom: 10px;
+                               }
+                               .service p{
+                                          font-size: 12px;
+                               }
+                               .service a{
+                                          margin-top: 10px;
+                                          color: #ea1f33;
+                                          padding: 2.5px 20px;
+                                          border: 1px solid #ea1f33;
+                                          font-size: 12px;
+                                          
+                               }
+}
+  
+@media only screen and (max-width:999px){
+                                          
+                                          .losalisation_contact_div{
+                                            height: auto;
+                                            flex-direction: column;
+                                            width: 100%;
+                  }
+                  .localisation{
+                                width: 100%;
+                                margin-bottom: 30px;
+                  }
+                  .losalisation_contact_div .form-contact{
+                                                          width: 100%;
+           
+                  }
+           
+                                          
+                                          }     
+@media only screen and (max-width:720px){
+        #home {
+                background-image: url("../imgs/M-électronic_bg.png");
+                width: 100%;
+                background-repeat: no-repeat;
+                align-items: normal;
+          }
+           #home p{
+                   font-size: 0.1px;
+           }
+           #home .left h3{
+                          font-size: 22px;
+           }
+           .images span.Model{
+                              font-size: 11px;
+                              font-weight: 800;
+}
+           .images span.prix{
+                             font-size: 15px;
+                             font-weight: 600;
+           } 
+           #services{
+            padding: 0 5px;
+  }
+  .service{
+           width: 100%; 
+  }
+
+
+}            
+@media(max-width:682px){
+  header{
+         padding: 0 10px;
+  }
+  header .menu li a{
+                  font-size: 9px;
+                  font-family: Arial, Helvetica, sans-serif;
+  }
+}  
