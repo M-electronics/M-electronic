@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.nav-buttons{
+             margin-left: 25%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+     font-family: 'poppins',sans-serif ;
+}
+/*Début de l'en-tête de la page*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    height: 50px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .bg-e{
+    color:rgba(83, 185, 126, 0.993);
+    font-family: elephant;
+    font-weight: bold;
+  }
+  .bg-e:hover{
+         color:rgba(83, 185, 126, 0.993);
+  }
+  #M-el{
+   color:orangered ;
+   font-family: elephant;
+   font-weight: 300;
+   text-decoration: none;
+   
+  }
+  #b-s{
+  color: rgb(230, 222, 217);
+  text-decoration: none;
+  }
+  .menu{
+   display: flex;
+  }
+  .menu li{
+      list-style: none;
+      margin: 0 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 10px;
+  }
+  .menu li a{
+        font-size: 14px;
+        color: #000;
+        font-weight: 300;
+        transition: 0.2s;
+  }
+  .menu li a:hover{
+              color: #ea1f33;
+              cursor: pointer;
+              padding: 5px 2px;
+  }
+  #lg-user{
+      padding: 10px;
+  }
+  #lg-shop{
+           margin-top: 10px;
+           margin-left: 2rem;
+  }
+  
+  
+  /*Fin de l'en-tête de la page*/
+/* Styles de base pour le footer */
+footer {
+    background-color: rgba(90, 143, 10, 0.384);
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    width: 25%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .footer-section p {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: algerian;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .social-media-links li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .social-media-links li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 20px;
+  }
+  .secure-payment {
+    display: flex;
+    align-items: center;
+  }
+  
+  .secure-payment h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .payment-methods {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .payment-methods li {
+    margin-right: 10px;
+  }
+  
+  .payment-methods li img {
+    width: 30px;
+    height: 20px;
+    margin-top: 22px;
+  }
+  .footer-section:after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 10px;
+  }
+  
+  /* Effet de survol sur les liens */
+  .footer-section ul li a:hover {
+    color: #ff5500;
+  }
+  /* Media queries pour la réactivité */
+  @media screen and (max-width: 768px) {
+    .footer-section {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footer-section {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:990px){
+                                         .nav-buttons{
+                                                      margin: 10px;
+                                         }
+                                         .nav-buttons ul{
+                                                         margin: 1rem;
+                                                         justify-content: flex-start;
+                                                         align-items: flex-start;
+                                                         text-align: left;
+                                         }
+                                         .nav-buttons ul .fas{
+                                                              margin: 20px 5px 10px 20px;
+                                         }
+                                         #banner h4{
+                                                    font-size: 20px;
+                                         }
+                                         #new .one:nth-child(1) .details{
+                                                align-items: center;
+                                                                            
+                                         }
+                                         #new .one:nth-child(2) .details{
+        align-items: center;
+                                         }
+                                         #new .one:nth-child(3) .details{
+        align-items: center;
+                                         }
+                                        
+                                         
+                                    }     
+                                    
+@media only screen and (max-width:1065px) {
+                                           .logo{
+                                                 font-size: 20px;
+                                           }
+                                           .images li:hover{
+                                                transform: scale(1.1);
+                                                margin: 10px;
+                               }
+                               .images li span{
+                                               color: #000;
+                                               font-size: 17px;
+                                               
+                               }
+                               #Nos-produits li span.prix{
+                                                 color: #ea1f33;
+                                                 font-weight: bold; 
+                                                 margin-bottom: 10px;
+                               }
+                               #Nos-produits li a{
+                                         background-color: orangered;
+                                         color: #fff;
+                                         padding: 5px 20px;
+                                         font-size: 15px;
+                                         cursor: pointer;
+                               }
+                               #Nos-produits li a:hover{
+                                               background-color: rgba(83, 185, 126, 0.993);
+                               }
+                               #services{
+                                         display: flex;
+                                         align-items: center;
+                                         justify-content: center;
+                                         width: 100%;
+                                         flex-direction: column;
+                               }
+                               .list-services{
+                                              margin: 100px 0;
+                                              display: flex;
+                                              flex-wrap: wrap;
+                                              align-items: center;
+                                              justify-content: center;
+                                              width: 100%;
+                               }
+                               .service{
+                                        width: 25%;
+                                        text-align: center;
+                                        justify-content: space-between;
+                                        flex-direction: column;
+                                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                                        padding: 20px;
+                                        margin: 20px;
+                               }
+                               .service i{
+                                          font-size: 25px;
+                                          height: 50px;
+                                          width: 50px;
+                                          display: inline;
+                                          align-items: center;
+                                          justify-content: center;
+                                          background-color: rgba(255, 68, 0, 0.644);
+                                          color: #fff;
+                                          border-radius: 20%;
+                                          margin-bottom: 10px;
+                               
+                                         
+                               }
+                               .service h3{
+                                           font-size: 18px;
+                                           margin-bottom: 10px;
+                               }
+                               .service p{
+                                          font-size: 12px;
+                               }
+                               .service a{
+                                          margin-top: 10px;
+                                          color: #ea1f33;
+                                          padding: 2.5px 20px;
+                                          border: 1px solid #ea1f33;
+                                          font-size: 12px;
+                                          
+                               }
+}
+@media only screen and (max-width:1019px){
+                                          .logo{
+                                                font-size: 18px;
+                                          }
+}      
+@media only screen and (max-width:999px){
+                                          .logo{
+                                                font-size: 16px;
+                                          }
+                                          .losalisation_contact_div{
+                                            height: auto;
+                                            flex-direction: column;
+                                            width: 100%;
+                  }
+                  .localisation{
+                                width: 100%;
+                                margin-bottom: 30px;
+                  }
+                  .losalisation_contact_div .form-contact{
+                                                          width: 100%;
+           
+                  }
+           
+                                          
+                                          }     
+@media only screen and (max-width:720px){
+        #home {
+                background-image: url("../imgs/M-électronic_bg.png");
+                width: 100%;
+                background-repeat: no-repeat;
+                align-items: normal;
+          }
+           #home p{
+                   font-size: 0.1px;
+           }
+           #home .left h3{
+                          font-size: 22px;
+           }
+           .images span.Model{
+                              font-size: 11px;
+                              font-weight: 800;
+}
+           .images span.prix{
+                             font-size: 15px;
+                             font-weight: 600;
+           } 
+           #services{
+            padding: 0 5px;
+  }
+  .service{
+           width: 100%;
+  }
+
+}       
+@media(max-width:682px){
+    header{
+           padding: 0 10px;
+    }
+    header .menu li a{
+                    font-size: 9px;
+                    font-family: Arial, Helvetica, sans-serif;
+    }
+  }       
+
+
+
+
+/*Début du formulaire de connexion*/
+main{
+    background-color: #f0f2f5;
+    position: relative;
+} 
+.container{
+          margin: 0 15px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 100vh;
+}                     
+main{
+    display:flex ;
+    height: 100vh;
+    justify-content:center ;
+    align-items:center ;
+   
+}
+/*Début du formulaire d'inscription*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+     display:flex ;
+     height: 100vh;
+     justify-content:center ;
+     align-items:center ;
+     margin-top: 20px;
+    
+}
+.contenu{
+           width: 100%;
+           max-width: 500px;
+           background: rgba(15, 14, 14, 0.5);
+           padding: 28px;
+           margin: 0 28px;
+           border-radius: 10px;
+           box-shadow: inset -2px 2px 2px white;
+}
+.Nv-c{
+      color: green;
+      font-family: algerian;
+      font-size: 29px;
+      font-weight: bold;
+      
+}
+.ts-v{
+      font-size: 15px;
+}
+.Carac-t{
+         color: rgb(250, 235, 215);
+         opacity: 0.5;
+}
+.Ins-v{
+       color: green;
+}
+.Ins-v:hover{
+             color: greenyellow;
+}
+.Coco-2{
+         font-family: Algerian;
+         color: rgba(135, 238, 149, 0.733);
+         font-weight: bold;
+         text-align: center;
+}
+#M-d{
+      color: rgba(245, 222, 179, 0.589);
+}
+.J-c{
+      color: rgba(245, 222, 179, 0.589);
+}
+.Ins-v-2{
+         color: green;
+}
+.Ins-v-2:hover{
+               color: greenyellow;
+}
+.N-v-c{
+       color: lightgreen;
+       font-family: elephant;
+       font-size: 12px;
+}
+#fleche{
+       text-align: center;
+}
+/*Fin du formulaire 
+
+/*Fin du corps de la page*/
